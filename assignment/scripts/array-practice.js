@@ -26,13 +26,15 @@ console.log('Number of favorite foods:', foods.length);
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
 
-// Example: Log the first animal from the array using it's array index
+// Example: Log the first animal from the array using its array index
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array
 console.log('Second animal is', animalArray[1]);
+//...was this supposed to be via the array index? If not, how about:
+// console.log('Second animal is', animalArray[animalArray.length-3]);
 
-// 3.b. TODO: Log the last animal in the array using it's array index
+// 3.b. TODO: Log the last animal in the array using its array index
 console.log('The last animal in the array is', animalArray[3]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
